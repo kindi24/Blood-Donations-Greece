@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.blooddonations.ui.home.HomeFragment"
+        android:label="Σύνδεση Χρήστη"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_bef_don"
+        android:name="com.example.blooddonations.ui.beforedonation.BeforeDonationFragment"
+        android:label="Πριν από μια αιμοδοσία"
+        tools:layout="@layout/fragment_bef_don" />
+    <fragment
+        android:id="@+id/nav_compatibility"
+        android:name="com.example.blooddonations.ui.compatibility.CompatibilityFragment"
+        android:label="Συμβατότητα ομάδων αίματος"
+        tools:layout="@layout/fragment_comp" />
+
+    <fragment
+        android:id="@+id/nav_blood_clubs"
+        android:name="com.example.blooddonations.ui.bloodclubs.BloodClubsFragment"
+        android:label="Σύλλογοι αιμοδοτών"
+        tools:layout="@layout/fragment_blood_clubs" />
+
+    <fragment
+        android:id="@+id/nav_choice_dates"
+        android:name="com.example.blooddonations.ui.choicedates.ChoiceDatesFragment"
+        android:label="Επιλογή ημερομηνίας"
+        tools:layout="@layout/fragment_cho_dates" />
+
+    <fragment
+        android:id="@+id/nav_last_don"
+        android:name="com.example.blooddonations.ui.lastdonation.LastDonationFragment"
+        android:label="Τελευταία αιμοδοσία"
+        tools:layout="@layout/fragment_last_don" />
+
+    <fragment
+        android:id="@+id/nav_request_bottles"
+        android:name="com.example.blooddonations.ui.requestbottles.RequestBottlesFragment"
+        android:label="Φιάλες αίματος"
+        tools:layout="@layout/fragment_req_bottles" />
+
+    <fragment
+        android:id="@+id/nav_req_don"
+        android:name="com.example.blooddonations.ui.requestdonator.RequestDonatorFragment"
+        android:label="Δότης μυελού των οστών"
+        tools:layout="@layout/fragment_req_don" />
+
+    <fragment
+        android:id="@+id/nav_service"
+        android:name="com.example.blooddonations.ui.service.ServiceFragment"
+        android:label="Ομάδα Εξυπηρέτησης"
+        tools:layout="@layout/fragment_service" />
+</navigation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/login"
+            android:title="@string/loginuser" />
+
+
+    <item android:title="@string/GeneralInformation">
+        <menu>
+            <item
+                android:id="@+id/nav_bef_don"
+                android:icon="@drawable/beforedonation"
+                android:title="@string/BeforeDon" />
+            <item
+                android:id="@+id/nav_compatibility"
+                android:icon="@drawable/compatibility"
+                android:title="@string/Compatibility" />
+            <item
+                android:id="@+id/nav_blood_clubs"
+                android:icon="@drawable/bloodclubs"
+                android:title="@string/BloodClubs" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="@string/datefordonation">
+        <menu>
+            <item
+                android:id="@+id/nav_choice_dates"
+                android:icon="@drawable/selectdate"
+                android:title="@string/choicedates" />
+            <item
+                android:id="@+id/nav_last_don"
+                android:icon="@drawable/lastdonation"
+                android:title="@string/LastDonation" />
+        </menu>
+    </item>
+
+    <item android:title="@string/Service">
+        <menu>
+            <item
+                android:id="@+id/nav_request_bottles"
+                android:icon="@drawable/bloodbottle"
+                android:title="@string/BloodBottles" />
+            <item
+                android:id="@+id/nav_req_don"
+                android:icon="@drawable/bonemarrow"
+                android:title="@string/BoneMarrow" />
+            <item
+                android:id="@+id/nav_service"
+                android:icon="@drawable/service"
+                android:title="@string/ServiceProblems" />
+
+        </menu>
+    </item>
+
+    </group>
+</menu>
