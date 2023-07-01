@@ -1,4 +1,4 @@
-# Blood-Donations-Greece
+# Blood Donations Greece App
 
 A simple (prototype) project which was implemented during the period of April-May 2023 for the subject Added-Value Internet Services 
 (in Greek: Διαδικτυακές Υπηρεσίες Προστιθέμενης Αξίας). Its purpose was to improve the organization of blood donations throughout Greece. 
